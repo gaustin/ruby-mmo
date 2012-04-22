@@ -1,6 +1,17 @@
 module RogueLeader
   def to_s
-    "Rogue Leader"
+    "Rogue Leader Is Not Dan Knox"
+  end
+
+  def minion?
+    false
+  end
+
+  def boss?
+    true
+  end
+
+  def trade(command, target=nil)
   end
 
   def move
